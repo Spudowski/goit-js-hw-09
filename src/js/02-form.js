@@ -1,4 +1,4 @@
-const form = document.querySelector('feedback-form');
+const form = document.querySelector('.feedback-form');
 const input = document.querySelector('input');
 const textarea = document.querySelector('textarea');
 const submitButton = document.querySelector('button');
