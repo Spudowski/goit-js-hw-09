@@ -29,14 +29,27 @@ label {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    max-width: 360px;
 }
 
 input,
 input:active {
     width: 360px;
+    max-width: 344px;
     height: 40px;
     border: 1px solid #808080;
     border-radius: 5px;
+}
+
+input[type="email"],
+textarea[name="message"] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-left: 16px;
 }
 
 input:hover,
@@ -47,9 +60,11 @@ textarea:hover {
 textarea,
 textarea:active {
     width: 360px;
+    max-width: 344px;
     height: 80px;
     border: 1px solid #808080;
     border-radius: 5px;
+    padding-top: 8px;
 }
 
 button {
